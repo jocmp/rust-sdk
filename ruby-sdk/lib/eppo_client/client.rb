@@ -3,8 +3,8 @@
 require "singleton"
 require "logger"
 
-require_relative "config"
-require_relative "eppo_client"
+require "eppo_client/config"
+require "eppo_client"
 
 module EppoClient
   # The main client singleton
